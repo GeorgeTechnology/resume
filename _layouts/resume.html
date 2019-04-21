@@ -2,29 +2,6 @@
 <html>
 
   {% include head.html %}
-
-header, main, footer {
-  margin: 0 auto;
-}
-
-header {
-  padding: 2em;
-  text-align: center;
-  background-image: url('./images/background-header.jpg');
-  background-size: cover;
-  background-position: fixed;
-  color: white;
-}
-
-header section {
-  margin: 0 auto;
-  max-width: 640px;
-}
-
-header img {
-  border-radius: 50%;
-  max-width: 150px;
-}
   
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
@@ -132,7 +109,7 @@ header img {
         <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
           <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }}  <!-- UNCOMMENT THIS TO ADD BULLET AND DURATION TIME!  &bull; {{ project.duration }}</h4>  -->
+          <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4> <!-- UNCOMMENT THIS TO ADD BULLET AND DURATION TIME!  &bull; {{ project.duration }}</h4>  -->
           <p class="resume-item-copy">{{ project.description }}</p>
         </div>
         {% endfor %}
