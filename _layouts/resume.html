@@ -3,6 +3,29 @@
 
   {% include head.html %}
 
+header, main, footer {
+  margin: 0 auto;
+}
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('./images/background-header.jpg');
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+
+header section {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+  
   <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
 
     <div class="wrapper" itemscope itemtype="http://schema.org/Person">
