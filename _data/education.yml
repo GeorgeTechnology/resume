@@ -1,7 +1,8 @@
 # Degree
 - degree: Joint Juris Doctor and Master of Business Administration
   uni: University of Tulsa
-  year: Anticipated graduation December 2019
+  #year: Anticipated graduation December 2019
+  award: Anticipated graduation December 2019
   awards:
     - award: Board of Advocates, Vice President
     - award: Tulsa Law Review, Executive IT Editor
@@ -10,7 +11,7 @@
   # summary: If you had any meaningful roles at college, feel free to write about them here
 
 - degree: Bachelor of Arts, Psychology
-  uni: Springfield High School
+  uni: University of Tulsa
   year: 2009
   awards: 
     - award: Minor in International Relations
