@@ -3,16 +3,16 @@
 - company: True Digital Security, Inc.
   position: Legal Intern
   duration: Fall 2018 &mdash; Present
-  summary: askdf;jl<ul class="resume-item-list"><li>Translated IT terminology and legal requirements between engineers and general counsel</li><li>Advised on compliance with federal contracts and relevant regulations</li><li>Drafted and reviewed contracts for clients and business partners</li></ul>
+  summary: Worked closely with engineers and leadership in cybersecurity consulting firm. <ul class="resume-item-list"><li>Translated IT terminology and legal requirements between engineers and general counsel</li><li>Advised on compliance with federal contracts and relevant regulations</li><li>Drafted and reviewed contracts for clients and business partners</li></ul>
 
 # Intern Rhodes
 - company: Rhodes Hieronymus Law Firm
   position: Law Clerk
   duration:  Summer 2018
-  summary: Testing niline<ul class="resume-item-list"><li>Provided on-demand research in complex conflict of laws issue, facilitating same day answers to clients</li><li>Assisted attorney in mediation negotiations</li><li>Recovered critical CCTV footage in slip and fall case</li></ul>
+  summary: Work primarily involved insurance defense litigation in Oklahoma and Louisiana.  <ul class="resume-item-list"><li>Provided on-demand research in complex conflict of laws issue, facilitating same day answers to clients</li><li>Assisted attorney in mediation negotiations</li><li>Recovered critical CCTV footage in slip and fall case</li></ul>
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# OU
+- company: University of Oklahoma
+  position: Senior System Engineer
+  duration: Spring 2013  &mdash; Spring 2017
+  summary: Led a team responsible for managing suite of servers and oracle database running the university card security and payment system.<ul class="resume-item-list"><li>Planned migration to new security and payment system across 3 campuses and 1,700 devices</li><li>Maintained compliance with PCI and HIPAA regulations</li><li>Wrote department disaster recovery and data security policies</li></ul>
