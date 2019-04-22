@@ -14,3 +14,24 @@
   #duration: 2007 &mdash; Present
   url: "https://georgetechnology.github.io/resume/powerbi.html"
   description: Functional knowledge of importing datasets, defining data relationship, and building dynamic visualizations in PowerBI. 
+
+# Linux Essentials
+- project: LPI Linux Essentials
+  role: Linux Academy Course
+  #duration: 2012 &mdash; Present
+  url: "https://georgetechnology.github.io/resume/linux.html"
+  description: An intro level course to managing Ubuntu and CentOS servers.
+  
+  # VPN
+- project: VPN Server Build
+  role: Self-guided VPN build on an Ubuntu virtual server
+  #duration: 2012 &mdash; Present
+  url: "https://georgetechnology.github.io/resume/VPN.html"
+  description: Created both an IPSec and an OpenVPN server on Digital Ocean cloud platform.  
+  
+  # AWS
+- project: AWS Essentials
+  role: Linux Academy Course
+  #duration: 2012 &mdash; Present
+  url: "https://georgetechnology.github.io/resume/AWS.html"
+  description: A competent understanding of core AWS services. 
