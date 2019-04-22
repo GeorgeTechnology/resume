@@ -47,9 +47,6 @@ body{
 
 
 
-header, main, footer {
-  margin: 0 auto;
-}
 
 header {
   padding: 2em;
@@ -57,7 +54,7 @@ header {
   background-image: url('./images/background-header.jpg');
   background-size: cover;
   background-position: fixed;
-  //color: white;
+  color: $text_color;
 }
 
 header section {
