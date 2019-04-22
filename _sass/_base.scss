@@ -44,25 +44,3 @@ body{
     color: #fff;
     text-shadow: none;
 }
-
-
-
-
-header {
-  padding: 2em;
-  text-align: center;
-  background-image: url('./images/background-header.jpg');
-  background-size: cover;
-  background-position: fixed;
-  color: $text_color;
-}
-
-header section {
-  margin: 0 auto;
-  max-width: 640px;
-}
-
-header img {
-  border-radius: 50%;
-  max-width: 150px;
-}
