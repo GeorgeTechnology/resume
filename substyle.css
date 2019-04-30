@@ -140,8 +140,8 @@ ul.job-description li:before{
 }
 
 img {
-  max-width: 1em;
-  height: auto;
+    max-width:100%;
+    height:auto;
 }
 
 footer {
