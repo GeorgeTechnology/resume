@@ -16,7 +16,32 @@
   </header>
     <main>
       <section>
-        <p><img src="http://s12.favim.com/orig/160406/cat-catstruction-play-on-words-construction-cats-Favim.com-4174852.jpeg" alt="SITE UNDER CONSTRUCTION"></p>
+        <center><h1 id="activity-log">Activity Log</h1></center>
+<h2 id="discussion">Discussion</h2>
+<p>This was the most valuable project completed as part of the tech skills course.   This project left me with a usable VPN server in the cloud that I configured myself to support mac, android, and windows clients.</p>
+<h3 id="what-is-a-vpn">What is a VPN?</h3>
+<p>A virtual private network (VPN) is one of the best tools an average user can deploy to protect their information while in public.  This technology was originally developed as a way for remote users to access resources on local networks - such as a traveling employee needing to access an internal file share on a corporate network.  This is accomplished by creating an encrypted tunnel between the two points.  Because of this encryption, the traffic between the user’s device and the remote network is entirely indecipherable to the networks this traffic traverses.</p>
+<p>Simply put, if a user is in public, enabling a VPN hides her traffic from all devices on the same public network and protects her information from being stolen or mined.</p>
+<h3 id="why-is-this-useful-to-me">Why is this useful to me?</h3>
+<p>As something of a privacy nerd myself, I had already been paying for a VPN service.  However, even paid VPN services have been known to mine and sell data of their users.  By building my own VPN server, I ensure the maximum amount of protection for my traffic, outside of building my own data center.</p>
+<h2 id="install-notes">Install Notes</h2>
+<ul>
+<li>You will need to configure a DigitalOcean server, which wasn’t explained in instructions.</li>
+<li>You will need to add a sudo user.  This is a basic linux task, but it isn’t explained in instructions</li>
+<li>Because I didn’t have a GUI interface on the remote server, I had to download the algo folder to my virtual machine, and then use SCP to copy contents of the folder to remote digitalocean server.</li>
+<li>When you execute the the sudo commands and python commands, make sure to do them from the algo folder or they won’t work</li>
+<li>It is possible to install the OpenVPN server on the same DigitalOcean instance as the Algo server.  Just install Algo <em>first,</em> and then start the instructions for OpenVPN.</li>
+<li>SNAPSHOTS ARE YOUR FRIEND.  Take them often.  You often won’t know that you’ve royally messed something up until an hour after you did it, and being able to revert to a 2-hour old snapshot is much better than having to start at square one again.</li>
+<li>If you don’t want to pay for the VPN server, it is possible to completely delete your digital ocean account after the free trial period has expired.  Then, use the <strong>free trial link</strong> found in the <a href="https://github.com/trailofbits/algo">Algo instructions</a> to re-create your account.
+<ul>
+<li>You’ll have to set up a whole new server from scratch, but once you’ve done it a couple times this can be done in 20 minutes.</li>
+</ul>
+</li>
+</ul>
+<h2 id="proof-of-completion">Proof of Completion</h2>
+<p><a href="https://georgetechnology.github.io/Resume/img/VPN.pdf">VPN Screenshots</a></p>
+
+
       </section>
     </main>
   </body>
