@@ -140,7 +140,7 @@ ul.job-description li:before{
 }
 
 img {
-  max-width: 100px;
+  max-width: 1em;
   height: auto;
 }
 
